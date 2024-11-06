@@ -1,7 +1,7 @@
 import PostContainer from "./PostContainer";
 import PostForm from "./PostForm";
 import { useEffect, useState } from "react";
-
+//Main container
 export default function FakeApiApp() {
   const [newPost, setnewPost] = useState({ title: "", body: "" });
   const [data, setData] = useState([]);
